@@ -3,7 +3,7 @@ from embbegins import OllamaCustomEmbeddings
 from carrega_e_separa import carregar_documentos, dividir_documentos
 custom_embeddings = OllamaCustomEmbeddings(model_name="nomic-embed-text")
 
-diretorio_dos_arquivos = "C:/Users/8761817/Downloads/llm/arquivos"  # Substitua pelo caminho do seu diretório
+diretorio_dos_arquivos = "caminho do arquivo"  # Substitua pelo caminho do seu diretório
 documentos_carregados = carregar_documentos(diretorio_dos_arquivos)
 chunks_de_texto = dividir_documentos(documentos_carregados)
 # Assumindo que você já tem seus 'chunks_de_texto' do passo anterior
