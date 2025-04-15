@@ -7,3 +7,5 @@ sentence-transformers
 faiss-cpu
 requests
 pypdf
+praisonaiagents 
+mcp
